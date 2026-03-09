@@ -60,7 +60,7 @@ export default function Home() {
       <div className="pointer-events-none absolute -top-28 -left-24 h-72 w-72 rounded-full bg-[#69c3b7]/45 blur-3xl" />
       <div className="pointer-events-none absolute right-0 bottom-0 h-80 w-80 rounded-full bg-[#f4c47f]/35 blur-3xl" />
 
-      <div className="relative mx-auto grid w-full max-w-6xl gap-8 rounded-[2rem] border border-white/60 bg-white/75 p-6 shadow-[0_24px_70px_rgba(36,73,67,0.16)] backdrop-blur sm:p-8 lg:grid-cols-[1.15fr_0.85fr] lg:p-12">
+      <div className="surface-enter relative mx-auto grid w-full max-w-6xl gap-8 rounded-[2rem] border border-white/60 bg-white/75 p-6 shadow-[0_24px_70px_rgba(36,73,67,0.16)] backdrop-blur sm:p-8 lg:grid-cols-[1.15fr_0.85fr] lg:p-12">
         <section className="space-y-7">
           <p className="inline-flex rounded-full border border-[#1d3d39]/20 bg-[#e7f2ef] px-4 py-2 text-xs font-semibold tracking-[0.2em] text-[#1d3d39] uppercase">
             School System Frontend
@@ -95,7 +95,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="rounded-3xl border border-[#1d3d39]/15 bg-[#f8fcfb] p-6 shadow-[0_16px_40px_rgba(36,73,67,0.12)] sm:p-8">
+        <section className="surface-enter-delay rounded-3xl border border-[#1d3d39]/15 bg-[#f8fcfb] p-6 shadow-[0_16px_40px_rgba(36,73,67,0.12)] sm:p-8">
           <h2 className="text-2xl font-extrabold text-[#1a3a36]">Admin Login</h2>
           <p className="mt-2 text-sm text-[#2d5d57]">
             Sign in with the single admin account to enter the dashboard.
