@@ -44,7 +44,7 @@ export default function Home() {
       return;
     }
 
-    document.cookie = `${AUTH_COOKIE_NAME}=${AUTH_COOKIE_VALUE}; path=/; max-age=${AUTH_COOKIE_AGE_SECONDS}; SameSite=Lax`;
+    document.cookie = `${AUTH_COOKIE_NAME}=${AUTH_COOKIE_VALUE}; path=/; max-age=${AUTH_COOKIE_AGE_SECONDS}`;
     localStorage.setItem("school_admin_username", ADMIN_USERNAME);
 
     const nextPath = searchParams.get("next");
